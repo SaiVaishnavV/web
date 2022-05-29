@@ -1,29 +1,4 @@
-/*!
 
- =========================================================
- * Now-ui-kit - v1.1.0
- =========================================================
-
- * Product Page: http://www.creative-tim.com/product/now-ui-kit
- * Copyright 2017 Creative Tim (http://www.creative-tim.com)
- * Licensed under MIT (https://github.com/creativetimofficial/now-ui-kit/blob/master/LICENSE.md)
-
- * Designed by www.invisionapp.com Coded by www.creative-tim.com
-
- =========================================================
-
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
- */
-/*     brand Colors              */
-/*      light colors         */
-/* ========================================================================
- * bootstrap-switch - v3.3.2
- * http://www.bootstrap-switch.org
- * ========================================================================
- * Copyright 2012-2013 Mattia Larentis
- * http://www.apache.org/licenses/LICENSE-2.0
- */
 .bootstrap-switch {
   display: inline-block;
   direction: ltr;
@@ -244,11 +219,7 @@
 .bootstrap-switch-on .bootstrap-switch-handle-off {
   opacity: 0; }
 
-/*! nouislider - 9.1.0 - 2016-12-10 16:00:32 */
-/* Functional styling;
- * These styles are required for noUiSlider to function.
- * You don't need to change these rules to apply your design.
- */
+
 .noUi-target,
 .noUi-target * {
   -webkit-touch-callout: none;
@@ -358,8 +329,7 @@
 .noUi-active {
   transform: scale3d(1.5, 1.5, 1); }
 
-/* Disabled state;
- */
+
 [disabled] .noUi-connect {
   background: #B8B8B8; }
 
@@ -368,9 +338,7 @@
 [disabled] .noUi-handle {
   cursor: not-allowed; }
 
-/* Base;
- *
- */
+
 .noUi-pips,
 .noUi-pips * {
   box-sizing: border-box; }
@@ -379,9 +347,7 @@
   position: absolute;
   color: #999; }
 
-/* Values;
- *
- */
+
 .noUi-value {
   position: absolute;
   text-align: center; }
@@ -390,9 +356,7 @@
   color: #ccc;
   font-size: 10px; }
 
-/* Markings;
- *
- */
+
 .noUi-marker {
   position: absolute;
   background: #CCC; }
@@ -427,9 +391,7 @@
 .noUi-marker-horizontal.noUi-marker-large {
   height: 15px; }
 
-/* Vertical layout;
- *
- */
+
 .noUi-pips-vertical {
   padding: 0 10px;
   height: 100%;
@@ -525,11 +487,7 @@
 .slider.slider-danger .noUi-handle {
   background-color: #FF3636; }
 
-/*!
- * Datepicker for Bootstrap v1.7.0-dev (https://github.com/uxsolutions/bootstrap-datepicker)
- *
- * Licensed under the Apache License v2.0 (http://www.apache.org/licenses/LICENSE-2.0)
- */
+
 .datepicker {
   padding: 8px 6px;
   border-radius: 4px;
@@ -2925,16 +2883,11 @@ Created using IcoMoon - icomoon.io
   font-size: inherit;
   speak: none;
   text-transform: none;
-  /* Better Font Rendering */
+ 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/*------------------------
-  change icon size
--------------------------*/
-/*----------------------------------
-  add a square/circle background
------------------------------------*/
+
 .now-ui-icons.circle {
   padding: 0.33333333em;
   vertical-align: -16%;
@@ -2964,9 +2917,7 @@ Created using IcoMoon - icomoon.io
   top: -0.19047619em;
   left: -1.9047619em; }
 
-/*------------------------
-  spinning icons
--------------------------*/
+
 .now-ui-icons.spin {
   -webkit-animation: nc-icon-spin 2s infinite linear;
   animation: nc-icon-spin 2s infinite linear; }
@@ -2983,12 +2934,7 @@ Created using IcoMoon - icomoon.io
   100% {
     transform: rotate(360deg); } }
 
-/*------------------------
-  rotated/flipped icons
--------------------------*/
-/*------------------------
-	font icons
--------------------------*/
+
 .now-ui-icons.ui-1_check:before {
   content: "\ea22"; }
 
@@ -3839,12 +3785,9 @@ Created using IcoMoon - icomoon.io
     background-color: rgba(0, 0, 0, 0.5); }
   .page-header[filter-color="orange"] {
     background: rgba(44, 44, 44, 0.2);
-    /* For browsers that do not support gradients */
-    /* For Safari 5.1 to 6.0 */
-    /* For Opera 11.1 to 12.0 */
-    /* For Firefox 3.6 to 15 */
+    
     background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
-    /* Standard syntax */ }
+   }
   .page-header .container {
     z-index: 2; }
 
@@ -4994,7 +4937,7 @@ Created using IcoMoon - icomoon.io
     top: 50%;
     transform: translateY(-50%); } }
 
-/* Images Gallery Style*/
+
 .gallery .cc-porfolio-image figure {
   position: relative;
   overflow: hidden;
@@ -5109,26 +5052,21 @@ Created using IcoMoon - icomoon.io
 .gallery figure.cc-effect:hover img {
   transition-delay: 0.15s; }
 
-/* Header */
-/* Navbar style*/
+
 .navbar {
   font-size: 18px;
   letter-spacing: 1px; }
 
-/* Body */
-/* Profile Page Background Style */
+
 .page-header {
   background: rgba(44, 44, 44, 0.2);
-  /* For browsers that do not support gradients */
-  /* For Safari 5.1 to 6.0 */
-  /* For Opera 11.1 to 12.0 */
-  /* For Firefox 3.6 to 15 */
+  
   background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(55, 140, 63, 0.6));
   /* Standard syntax */ }
   .page-header .btn {
     width: 140px; }
 
-/* Profile Image Style */
+
 @-webkit-keyframes pulsate {
   0% {
     transform: scale(0.6, 0.6);
@@ -5184,11 +5122,11 @@ Created using IcoMoon - icomoon.io
   -webkit-animation: none;
           animation: none; }
 
-/* Profile Page Social button Style */
+
 .button-container .btn-default {
   margin-right: 8px; }
 
-/* Professional Skills Style */
+
 .progress-container {
   margin-bottom: 20px;
   font-size: 18px; }
@@ -5203,7 +5141,7 @@ Created using IcoMoon - icomoon.io
   .progress-container .aos-animate {
     transform: scaleX(1); }
 
-/* Experience Style */
+
 .cc-experience .cc-experience-header {
   padding-top: 60px;
   padding-right: 0;
@@ -5211,7 +5149,7 @@ Created using IcoMoon - icomoon.io
   color: #fff;
   text-transform: uppercase; }
 
-/* Education Style */
+
 .cc-education .h5 {
   margin-bottom: 0; }
 
@@ -5249,7 +5187,7 @@ Created using IcoMoon - icomoon.io
   .cc-reference ol {
     margin-bottom: 0; } }
 
-/* Contact Information Style */
+
 .cc-contact-information {
   width: 100%;
   position: relative;
@@ -5260,8 +5198,7 @@ Created using IcoMoon - icomoon.io
       .cc-contact-information .cc-contact {
         padding: 30px 0px 30px 0px; } }
 
-/* Footer */
-/* Social button style */
+
 .cc-facebook:hover i {
   color: #3b5998; }
 
@@ -5274,13 +5211,13 @@ Created using IcoMoon - icomoon.io
 .cc-instagram:hover i {
   color: #405de6; }
 
-/* Credit Style */
+
 a.credit {
   color: inherit;
   border-bottom: 1px dashed;
   text-decoration: none;
   cursor: pointer; }
 
-/* Common Style */
+
 .section {
   padding-bottom: 0; }
